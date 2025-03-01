@@ -5,11 +5,11 @@
 2. Upload it to **Kaggle Notebooks** (`https://www.kaggle.com/code`).
 3. Run the notebook in Kaggle’s cloud environment.
 
----
 
-# Loading a Dataset from GitHub
+## Loading a Dataset from GitHub
 The notebook has dataset loaded directly from GitHub, if it doesn't work kindly manually download and upload dataset on kaggle
 
+---
 
 # NLP Project
 
