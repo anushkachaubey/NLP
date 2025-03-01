@@ -1,3 +1,16 @@
+# Running Jupyter Notebooks from GitHub
+
+## Running in Kaggle Notebooks
+1. Download the `.ipynb` file from GitHub.
+2. Upload it to **Kaggle Notebooks** (`https://www.kaggle.com/code`).
+3. Run the notebook in Kaggle’s cloud environment.
+
+---
+
+# Loading a Dataset from GitHub
+The notebook has dataset loaded directly from GitHub, if it doesn't work kindly manually download and upload dataset on kaggle
+
+
 # NLP Project
 
 This project focuses on natural language processing (NLP) techniques to analyze and classify textual data. It utilizes various machine learning models and embeddings to evaluate performance.
