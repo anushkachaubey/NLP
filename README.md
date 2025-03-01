@@ -49,6 +49,38 @@ To do this, locate the section in the notebook and remove the `#` symbols before
 ## Results;
 You can find the final results under the section "Best Model" at the end. 
 
+
+# Math Textbook Question Extraction
+
+The `extract.ipynb` file is designed to extract questions from a math textbook PDF. It processes the text to identify chapters, problem sets, and individual questions.
+
+## How It Works
+
+1. **PDF Extraction**: The script reads the PDF using `pdfplumber` and extracts the raw text.
+2. **Problem Set Identification**: The script identifies problem sets using regex patterns.
+3. **Question Extraction**: Questions are extracted based on number patterns (`1.`, `2.`, etc.) and common keywords like "Solve," "Prove," and "Evaluate."
+4. **Chapter Mapping**: Each extracted question is mapped to its respective chapter.
+5. **Saving Results**: The extracted questions are stored in `questions_with_chapters.txt` for further analysis.
+
+## Running the Script
+
+1. Ensure you have `pdfplumber` installed:
+   ```bash
+   pip install pdfplumber
+   ```
+2. Place your textbook PDF in the appropriate directory and update the file path:
+   ```python
+   pdf_path = "Question-Classifier/Book1/book1.pdf"
+   ```
+3. Run all cells to extract and save questions.
+
+## Output Files
+- `extracted_text.txt`: Contains the full extracted text from the PDF.
+- `problem_sets.txt`: Contains identified problem sets.
+- `questions_extracted.txt`: Contains raw extracted questions.
+- `questions_with_chapters.txt`: Contains structured questions with their respective chapters.
+- `questions_with_chapters.json`: Final Dataset
+
 ## Authors
 
 This project was developed as part of an NLP research initiative.
@@ -56,4 +88,6 @@ This project was developed as part of an NLP research initiative.
 ## License
 
 This project is open-source and available for further development and enhancement.
+
+
 
