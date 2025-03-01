@@ -2,6 +2,20 @@
 1. nlp-project.ipynb: Main project code
 2. Create_Dataset>extract.ipynb: Dataset generation code
 
+### Datasets:
+This has post-processed data in json format & pre-processed book pdf
+1. Primary dataset: Custom python code extraction of Gilbert Strang’s textbook
+   [questions_with_chapters.json]
+2. Synthetic dataset: Manually extracted dataset with synthetic question generation to create balanced dataset of Gilbert Strang’s textbook
+[questions_with_chapters1_manual.json]
+3. Noiseless dataset: Only latex questions with no noise for book3
+   [questions_with_chapters3.json]
+
+### Create Dataset:
+This has book1 pdf and extract.ipynb to extract the data from the pdf to create dataset. 
+
+Note: The extracted dataset already exists in Datasets folder
+
 # Running Jupyter Notebooks from GitHub
 
 ## Running in Kaggle Notebooks
