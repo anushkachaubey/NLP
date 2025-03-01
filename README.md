@@ -72,6 +72,12 @@ You can find the final results under the section "Best Model" at the end.
 
 The `extract.ipynb` file is designed to extract questions from a math textbook PDF. It processes the text to identify chapters, problem sets, and individual questions.
 
+## How to run
+1. Download the `.ipynb` file from GitHub.
+2. Upload it to **Kaggle Notebooks** (`https://www.kaggle.com/code`) or run it on local
+3. Ensure book1.pdf is also downloaded in the same location
+4. Run the notebook 
+
 ## How It Works
 
 1. **PDF Extraction**: The script reads the PDF using `pdfplumber` and extracts the raw text.
@@ -88,7 +94,7 @@ The `extract.ipynb` file is designed to extract questions from a math textbook P
    ```
 2. Place your textbook PDF in the appropriate directory and update the file path:
    ```python
-   pdf_path = "Question-Classifier/Book1/book1.pdf"
+   pdf_path = "book1.pdf"
    ```
 3. Run all cells to extract and save questions.
 
