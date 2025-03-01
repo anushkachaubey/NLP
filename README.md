@@ -36,15 +36,20 @@ The script supports three different datasets. To choose a dataset, uncomment one
    [questions_with_chapters3.json]
    
 ```python
-# df = pd.read_json("/kaggle/input/data-book1json/questions_with_chapters.json")
-# df = pd.read_json("/kaggle/input/data-book3json/questions_with_chapters3.json")
-# df = pd.read_json("/kaggle/input/data-book1manualjson/questions_with_chapters1_manual.json")
+# ----- Primary Dataset
+# df = pd.read_json("https://raw.githubusercontent.com/anushkachaubey/NLP/main/Datasets/Primary_Book1/questions_with_chapters.json")
+
+# ----- Synthetic Dataset
+# df = pd.read_json("https://raw.githubusercontent.com/anushkachaubey/NLP/main/Datasets/Synthetic_Book1/questions_with_chapters1_manual.json")
+
+# ----- Noiseless Dataset
+# df = pd.read_json("https://raw.githubusercontent.com/anushkachaubey/NLP/main/Datasets/Noiseless_Book3/questions_with_chapters3.json")
 ```
 
 For example, if you want to use `questions_with_chapters.json`, modify the code like this:
 
 ```python
-df = pd.read_json("/kaggle/input/data-book1json/questions_with_chapters.json")
+df = pd.read_json("https://raw.githubusercontent.com/anushkachaubey/NLP/main/Datasets/Primary_Book1/questions_with_chapters.json")
 ```
 
 ## Running the Notebook
