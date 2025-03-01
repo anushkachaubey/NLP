@@ -1,0 +1,478 @@
+[
+    {
+        "chapter": "Linear Equations",
+        "question": "Find all solutions to the following system of equations by row-reducing the coefficient matrix: \\[\\begin{array}{l}\\frac{1}{5}x_{1}+2x_{2}-\\phantom{-}6x_{3}=0\\\\ -4x_{1}\\phantom{-}+\\phantom{-}5x_{3}=0\\\\ -3x_{1}+6x_{2}-13x_{3}=0\\\\ -\\frac{1}{5}x_{1}+2x_{3}-\\phantom{-}\\frac{1}{5}x_{3}=0\\end{array}\\] "
+    },
+    {
+        "chapter": "Linear Equations",
+        "question": "Find a row-reduced echelon matrix which is row-equivalent to \\[A=\\begin{bmatrix}1&-i\\\\ 2&2\\\\ i&1+i\\end{bmatrix}.\\] What are the solutions of \\(AX=0\\)? "
+    },
+    {
+        "chapter": "Linear Equations",
+        "question": "Let \\[A=\\begin{bmatrix}1&2&1&0\\\\ -1&0&3&5\\\\ 1&-2&1&1\\end{bmatrix}.\\] Find a row-reduced echelon matrix \\(R\\) which is row-equivalent to \\(A\\) and an invertible \\(3\\times 3\\) matrix \\(P\\) such that \\(R=PA\\). "
+    },
+    {
+        "chapter": "Linear Equations",
+        "question": "Do Exercise 1, but with \\[A=\\begin{bmatrix}2&\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad i\\\\ 1&-3&-i\\\\ i&1&1\\end{bmatrix}.\\] "
+    },
+    {
+        "chapter": "Linear Equations",
+        "question": "For each of the two matrices \\[\\begin{bmatrix}2&5&-1\\\\ 4&-1&2\\\\ 6&4&1\\end{bmatrix},\\quad\\quad\\begin{bmatrix}1&-1&2\\\\ 3&2&4\\\\ 0&1&-2\\end{bmatrix}\\] use elementary row operations to discover whether it is invertible, and to find the inverse in case it is. "
+    },
+    {
+        "chapter": "Linear Equations",
+        "question": "Let \\[A=\\begin{bmatrix}5&0&0\\\\ 1&5&0\\\\ 0&1&5\\end{bmatrix}.\\] "
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "If \\(F\\) is a field, verify that \\(F^{n}\\) (as defined in Example 1) is a vector space over the field \\(F\\)."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "If \\(V\\) is a vector space over the field \\(F\\), verify that  \\[(\\alpha_{1}+\\alpha_{2})+(\\alpha_{3}+\\alpha_{4})=[\\alpha_{2}+(\\alpha_{3}+ \\alpha_{1})]+\\alpha_{4}\\]  for all vectors \\(\\alpha_{1},\\alpha_{3},\\alpha_{4},\\) and \\(\\alpha_{4}\\) in \\(V\\).  "
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "If \\(C\\) is the field of complex numbers, which vectors in \\(C^{3}\\) are linear combinations of \\((1,0,-1)\\), \\((0,1,1)\\), and \\((1,1,1)\\)? "
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Prove that if two vectors are linearly dependent, one of them is a scalar multiple of the other."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Are the vectors \\[\\begin{array}{l}\\alpha_{1}=(1,1,2,4),\\quad\\ \\alpha_{2}=(2,-1,-5,2)\\\\ \\alpha_{3}=(1,-1,-4,0),\\quad\\ \\alpha_{4}=(2,1,1,6)\\end{array}\\] linearly independent in \\(R^{4}\\)?"
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Find a basis for the subspace of \\(R^{4}\\) spanned by the four vectors of Exercise 2."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Show that the vectors \\[\\alpha_{1}=(1,0,-1),\\quad\\ \\ \\alpha_{2}=(1,2,1),\\quad\\ \\ \\alpha_{3}=(0,-3,2)\\] form a basis for \\(R^{3}\\). Express each of the standard basis vectors as linear combinations of \\(\\alpha_{1}\\), \\(\\alpha_{2}\\) and \\(\\alpha_{3}\\)."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": " Find three vectors in \\(R^{2}\\) which are linearly dependent, and are such that any two of them are linearly independent."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Let \\(V\\) be the vector space of all \\(2\\times 2\\) matrices over the field \\(F\\). Prove that \\(V\\) has dimension \\(4\\) by exhibiting a basis for \\(V\\) which has four elements."
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Let \\(V\\) be the vector space of Exercise 6. Let \\(W_{1}\\) be the set of matrices of the form \\[\\begin{bmatrix}x&-x\\\\ y&z\\end{bmatrix}\\] and let \\(W_{2}\\) be the set of matrices of the form \\[\\begin{bmatrix}a&b\\\\ -a&c\\end{bmatrix}.\\] "
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Let \\(s<n\\) and \\(\\iota\\) an \\(s\\times n\\) matrix with entries in the field \\(F\\). Use Theorem 4 (not its proof) to show that there is a non-zero \\(X\\) in \\(F^{\\mathsf{w}\\times\\mathsf{i}}\\) such that \\(AX=0\\). "
+    },
+    {
+        "chapter": "Vector Spaces",
+        "question": "Let \\[\\alpha_{1}=(1,1,-2,1),\\qquad\\alpha_{2}\\simeq(3,0,4,-1),\\qquad\\alpha_{3}=(-1,2, 5,2).\\] Let \\[\\alpha=(4,-5,9,-7),\\qquad\\beta=(3,1,-4,4),\\qquad\\gamma=(-1,1,0,1).\\] 1. Which of the vectors \\(\\alpha,\\beta,\\gamma\\) are in the subspace of \\(R^{4}\\) spanned by the \\(\\alpha_{i}\\)? 2. Which of the vectors \\(\\alpha,\\beta,\\gamma\\) are in the subspace "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Which of the following functions \\(T\\) from \\(R^{2}\\) into \\(R^{2}\\) are linear transformations? 1. \\(T(x_{1},x_{2})=(1+x_{1},x_{2})\\); 2. \\(T(x_{1},x_{2})=(x_{2},x_{1})\\); 3. \\(T(x_{1},x_{2})=(x_{1}^{2},x_{2})\\); 4. \\(T(x_{1},x_{2})=(\\sin x_{1},x_{2})\\); 5. \\(T(x_{1},x_{ "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Let \\(T\\) and \\(U\\) be the linear operators on \\(R^{2}\\) defined by \\[T(x_{1},x_{2})=(x_{2},x_{1})\\quad\\text{and}\\quad U(x_{1},x_{2})=(x_{1},0).\\] (1) How would you describe \\(T\\) and \\(U\\) geometrically? (2) Give rules like the ones defining \\(T\\) and \\(U\\) for each of the transformations \\((U+T)\\), \\(UT\\), \\(TU\\), \\(T^{1}\\), \\(U^{2}\\). "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Let \\(T\\) be the (unique) linear operator on \\(C^{2}\\) for which \\[T\\epsilon_{1}=(1,0,i),\\qquad T\\epsilon_{2}=(0,1,1),\\qquad T\\epsilon_{3}=(i,1,0).\\]  Is \\(T\\) invertible? "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Let \\(T\\) be the linear operator on \\(R^{3}\\) defined by \\[T(x_{1},x_{2},x_{3})=(3x_{1},x_{1}-x_{3},2x_{1}+x_{2}+x_{3}).\\]  Is \\(T\\) invertible? If so, find a rule for \\(T^{-1}\\) like the one which defines \\(T\\). "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "For the linear operator \\(T\\) of Exercise 3, prove that \\[(T^{2}-I)(T-3I)=0.\\] "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Let \\(C^{2x2}\\) be the complex vector space of \\(2\\times 2\\) matrices with complex entries. Let \\[B=\\left[\\begin{array}{cc}1&-1\\\\ -4&4\\end{array}\\right]\\]  and let \\(T\\) be the linear operator on \\(C^{2x2}\\) defined by \\(T(A)=BA\\). What is the rank of \\(T\\)? Can you describe \\(T\\)? "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "Let \\(T\\) be a linear transformation from \\(R^{2}\\) into \\(R^{2}\\), and let \\(U\\) be a linear transformation from \\(R^{2}\\) into \\(R^{2}\\). Prove that the transformation \\(UT\\) is not invertible. Generalize the theorem.   "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "In \\(R^{3}\\), let \\(\\alpha_{1}=(1,\\,0,\\,1)\\), \\(\\alpha_{2}=(0,\\,1,\\,-2)\\), \\(\\alpha_{3}=(-1,\\,-1,\\,0)\\).  "
+    },
+    {
+        "chapter": "Linear Transformations",
+        "question": "If \\(f\\) is a linear functional on \\(R^{3}\\) such that \\[f(\\alpha_{1})=1,\\ \\ \\ \\ \\ f(\\alpha_{3})=-1,\\ \\ \\ \\ \\ f(\\alpha_{3})=3,\\] and if \\(\\alpha=(a,\\,b,\\,c)\\), find \\(f(\\alpha)\\).   "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Let \\(Q\\) be the field of rational numbers. Determine which of the following subsets of \\(Q[x]\\) are ideals. When the set is an ideal, find its monic generator. 1. all \\(f\\) of even degree; 2. all \\(f\\) of degree \\(\\geq\\) 5; 3. all \\(f\\) such that \\(f(0)=0\\); 4. all \\(f\\) such that \\(f(2)=f(4)=0\\); 5. all \\(f\\) in the range of the linear operator \\(T\\) defined by \\[T\\Bigl{(}\\sum\\limits_{i=0}^{n}c_{i}x^{i}\\Bigr{)}=\\sum\\limits_{i=0}^{n}\\frac{c_{ i}}{i+1}\\,x^{i+1}.\\] "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Find the g.c.d. of each of the following pairs of polynomials 1. \\(2x^{4}-x^{3}-3x^{2}-6x+4\\), \\(x^{4}+x^{3}-x^{2}-2x-2\\); 2. \\(3x^{4}+8x^{2}-3\\), \\(x^{3}+2x^{2}+3x+6\\); 3. \\(x^{4}-2x^{3}-2x^{2}-2x-3\\), \\(x^{3}+6x^{2}+7\\,x+1\\). "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Let \\(A\\) be an \\(n\\times n\\) matrix over a field \\(F\\). Show that the set of all polynomials \\(f\\) in \\ "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Let \\(p\\) be a monic polynomial over the field \\(F\\), and let \\(f\\) and \\(g\\) be relatively prime polynomials over \\(F\\). Prove that the g.e.d. of \\(pf\\) and \\(pg\\) is \\(p\\).  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Assuming the Fundamental Theorem of Algebra, prove the following. If \\(f\\) and \\(g\\) are polynomials over the field of complex numbers, then g.e.d. \\((f,g)=1\\) if and only if \\(f\\) and \\(g\\) have no common root.  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Let \\(D\\) be the differentiation operator on the space of polynomials over the field of complex numbers. Let \\(f\\) be a monic polynomial over the field of complex numbers. Prove that  \\[f=(x-c_{k})\\,\\cdots\\,(x-c_{k})\\]  where \\(c_{k}\\), ..., \\(c_{k}\\) are _distinct_ complex numbers if and only if \\(f\\) and \\(Df\\) are relatively prime. In other words, \\(f\\) has no repeated root if and only if \\(f\\) and \\(Df\\) have no common root. (Assume the Fundamental Theorem of Algebra.)  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Prove the following generalization of Taylor's formula. Let \\(f\\), \\(g\\), and \\(h\\) be polynomials over a subfield of the complex numbers, with \\(\\deg f\\leq n\\). Then  \\[f(g)\\,=\\,\\sum\\limits_{h\\,=\\,0}^{n}\\frac{1}{k!}f^{(h)}(h)(g-h)^{k}.\\]  (Here \\(f(g)\\) denotes '\\(f\\) of \\(g\\).')  For the remaining exercises, we shall need the following definition. If \\(f\\), \\(g\\), and \\(p\\) are polynomials over the field \\(F\\) with \\(p\\neq 0\\), we say that \\(f\\) is **congruent to \\(g\\) modulo \\(p\\)** if \\((f-g)\\) is divisible by \\(p\\). If \\(f\\) is congruent to \\(g\\) modulo \\(p\\), we write  \\[f\\equiv g\\bmod p.\\]  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Prove, for any non-zero polynomial \\(p\\), that congruence modulo \\(p\\) is an equivalence relation. It is reflexive; \\(f\\equiv f\\bmod p\\). It is symmetric: if \\(f\\equiv g\\bmod p\\), then \\(g\\equiv f\\bmod p\\). It is transitive: if \\(f\\equiv g\\bmod p\\) and \\(g\\equiv h\\bmod p\\), then \\(f\\equiv h\\bmod p\\)."
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Suppose \\(f\\equiv g\\bmod p\\) and \\(f_{1}\\equiv g_{1}\\bmod p\\). Prove that \\(f+f_{1}=g+g_{1}\\bmod p\\). Prove that \\(f\\!f_{1}=gg_{1}\\bmod p\\).  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "Use Exercise 7 to prove the following. If \\(f\\), \\(g\\), \\(h\\), and \\(p\\) are polynomials over the field \\(F\\) and \\(p\\neq 0\\), and if \\(f\\equiv g\\bmod p\\), then \\(h(f)\\equiv h(g)\\bmod p\\).  "
+    },
+    {
+        "chapter": "Polynomials",
+        "question": "If \\(p\\) is an irreducible polynomial and \\(fg\\equiv 0\\bmod p\\), prove that either \\(f\\equiv 0\\bmod p\\) or \\(g\\equiv 0\\bmod p\\). Give an example which shows that: this is false if \\(p\\) is not irreducible.   "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "Each of the following expressions defines a function \\(D\\) on the set of \\(3\\times 3\\) matrices over the field of real numbers. In which of these cases is \\(D\\) a 3-linear function? \\(D(A)=A_{11}+A_{22}+A_{31}\\);\\(D(A)=(A_{11})^{2}+3A_{11}A_{22}\\);\\(D(A)=A_{11}A_{12}A_{32}\\);\\(D(A)=A_{12}A_{22}+5A_{12}A_{22}A_{22}\\);\\(D(A)=0\\);\\(D(A)=1\\).  "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "Verify directly that the three functions \\(E_{1}\\), \\(E_{2}\\), \\(E_{3}\\) defined by (5-6), (5-7), and (5-8) are identical.  "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "Let \\(K\\) be a commutative ring with identity. If \\(A\\) is a \\(2\\times 2\\) matrix over \\(K\\), the **classical adjoint** of \\(A\\) is the \\(2\\times 2\\) matrix adj \\(A\\) defined by  \\[\\text{adj}\\ A=\\begin{bmatrix}A_{22}&-A_{11}\\\\ -A_{21}&A_{11}\\end{bmatrix}.\\]  If det denotes the unique determinant function on \\(2\\times 2\\) matrices over \\(K\\), show that "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "Use the classical adjoint formula to compute the inverses of each of the following \\(3\\times 3\\) real matrices.  \\[\\left[\\begin{array}{rrr}-2&3&2\\\\ 6&0&3\\\\ 4&1&-1\\end{array}\\right],\\qquad\\left[\\begin{array}{rrr}\\cos\\theta&0&-\\sin \\theta\\\\ 0&1&0\\\\ \\sin\\theta&0&\\cos\\theta\\end{array}\\right]\\]  "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "Use Cramer's rule to solve each of the following systems of linear equations over the field of rational numbers.  \\begin{tabular}{l l l l} (a) & \\(x+\\) & \\(y+\\) & \\(z=11\\) \\\\  & \\(2x-\\) & \\(6y-\\) & \\(z=\\) & \\(0\\) \\\\  & \\(3x+\\) & \\(4y+\\) & \\(2z=\\) & \\(0\\). \\\\  & \\(3x-\\) & \\(2y=\\) & \\(7\\) \\\\  & \\(3y-\\) & \\(2z=\\) & \\(6\\) \\\\  & \\(3z-\\) & \\(2x=\\) & \\(-1\\). \\\\ \\end{tabular}  "
+    },
+    {
+        "chapter": "Determinants",
+        "question": "An \\(n\\times n\\) matrix \\(A\\) over a field \\(F\\) is **skew-symmetric** if \\(A^{i}=-A\\). If \\(A\\) is a skew-symmetric \\(n\\times n\\) matrix with complex entries and \\(n\\) is odd, prove that \\(\\det A=0\\).  "
+    },
+    {
+        "chapter": "Determinants",
+        "question": " An \\(n\\times n\\) matrix \\(A\\) over a field \\(F\\) is called **orthogonal** if \\(AA^{i}=I\\). If \\(A\\) is orthogonal, show that \\(\\det A=\\pm 1\\). Give an example of an orthogonal matrix for which \\(\\det A=-1\\).   "
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be the linear operator on \\(R^{2}\\), the matrix of which in the standard ordered basis is \\[A\\ =\\begin{bmatrix}1&-1\\\\ 2&2\\end{bmatrix}.\\] (a) Prove that the only subspaces of \\(R^{2}\\) invariant under \\(T\\) are \\(R^{2}\\) and the zero subspace. (b) If \\(U\\) is the linear operator on \\(C^{2}\\), the matrix of which in the standard ordered basis is \\(A\\), show that \\(U\\) has 1-dimensional invariant subspaces."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(W\\) be an invariant subspace for \\(T\\). Prove that the minimal polynomial for the restriction operator \\(T_{W}\\) divides the minimal polynomial for \\(T\\), without referring to matrices."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(c\\) be a characteristic value of \\(T\\) and let \\(W\\) be the space of characteristic vectors associated with the characteristic value \\(c\\). What is the restriction operator \\(T_{W}\\)?"
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\[A\\ =\\begin{bmatrix}0&1&0\\\\ 2&-2&2\\\\ 2&-3&2\\end{bmatrix}.\\] Is \\(A\\) similar over the field of real numbers to a triangular matrix? If so, find such a triangular matrix."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Every matrix \\(A\\) such that \\(A^{2}=A\\) is similar to a diagonal matrix."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be a diagonalizable linear operator on the \\(n\\)-dimensional vector space \\(V\\), and let \\(W\\) be a subspace which is invariant under \\(T\\). Prove that the restriction operator \\(T_{W}\\) is diagonalizable."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be a linear operator on a finite-dimensional vector space over the field of complex numbers. Prove that \\(T\\) is diagonalizable if and only if \\(T\\) is annihilated by some polynomial over \\(C\\) which has distinct roots."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be a linear operator on \\(V\\). If every subspace of \\(V\\) is invariant under \\(T\\), then \\(T\\) is a scalar multiple of the identity operator."
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be the indefinite integral operator \\[(T\\!f)(x)=\\int_{0}^{x}f(t)\\ dt\\]"
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Find an invertible real matrix \\(P\\) such that \\(P^{-1}AP\\) and \\(P^{-1}BP\\) are both diagonal, where \\(A\\) and \\(B\\) are the real matrices (a) \\[A=\\begin{bmatrix}1&2\\\\ 0&2\\end{bmatrix},\\qquad B=\\begin{bmatrix}3&-8\\\\ 0&-1\\end{bmatrix}\\] (b) \\[A=\\begin{bmatrix}1&1\\\\ 1&1\\end{bmatrix},\\qquad B=\\begin{bmatrix}1&a\\\\ a&1\\end{bmatrix}.\\] "
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(\\mathfrak{F}\\) be a commuting family of \\(3\\times 3\\) complex matrices. How many linearly independent matrices can \\(\\mathfrak{F}\\) contain? What about the \\(n\\times n\\) case? "
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(T\\) be a linear operator on an \\(n\\)-dimensional space, and suppose that \\(T\\) has \\(n\\) distinct characteristic values. Prove that any linear operator which commutes with \\(T\\) is a polynomial in \\(T\\). "
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(A\\), \\(B\\), \\(C\\), and \\(D\\) be \\(n\\times n\\) complex matrices which commute. Let \\(E\\) be the \\(2n\\times 2n\\) matrix \\[E=\\begin{bmatrix}A&B\\\\ C&\\b\\end{bmatrix}.\\] Prove that \\(\\det E=\\det\\,(AD-BC)\\). "
+    },
+    {
+        "chapter": "Elementary Canonical Forms",
+        "question": "Let \\(F\\) be a field, \\(n\\) a positive integer, and let \\(V\\) be the space of \\(n\\times n\\) matrices over \\(F\\). If \\(A\\) is a fixed \\(n\\times n\\) matrix over \\(F\\), let \\(T_{A}\\) be the linear operator on \\(V\\) defined by \\(T_{A}(B)=AB-BA\\). Consider the family of linear operators \\(T_{A}\\) obtained by letting \\(A\\) vary over all diagonal matrices. Prove that the operators in that family are simultaneously diagonalizable.   "
+    },
+    {
+        "chapter": "The Rational and Jordan Forms",
+        "question": "Let \\(T\\) be a linear operator on \\(F^{2}\\). Prove that any non-zero vector which is not a characteristic vector for \\(T\\) is a cyclic vector for \\(T\\). Hence, prove that either \\(T\\) has a cyclic vector or \\(T\\) is a scalar multiple of the identity operator.  "
+    },
+    {
+        "chapter": "The Rational and Jordan Forms",
+        "question": "Let \\(T\\) be the linear operator on \\(R^{3}\\) which is represented in the standard ordered basis by the matrix  \\[\\begin{bmatrix}2&0&0\\\\ 0&2&0\\\\ 0&0&-1\\end{bmatrix}\\]  Prove that \\(T\\) has no cyclic vector. What is the \\(T\\)-cyclic subspace generated by the vector (1, \\(-1\\), 3)?  "
+    },
+    {
+        "chapter": "The Rational and Jordan Forms",
+        "question": "Let \\(T\\) be the linear operator on \\(C^{3}\\) which is represented in the standard ordered basis by the matrix  \\[\\begin{bmatrix}1&i&0\\\\ -1&2&-i\\\\ 0&1&1\\end{bmatrix}.\\] "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be the space \\(C^{\\natural}\\), with the standard inner product. Let \\(T\\) be the linear operator defined by \\(T\\epsilon_{1}=(1,\\,-2)\\), \\(T\\epsilon_{2}=(i,\\,-1)\\). If \\(\\alpha=(x_{1},x_{2})\\), find \\(T^{*}\\alpha\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(T\\) be the linear operator on \\(C^{\\natural}\\) defined by \\(T\\epsilon_{1}=(1+i,\\,2)\\), \\(T\\epsilon_{2}=(i,\\,i)\\). Using the standard inner product, find the matrix of \\(T^{*}\\) in the standard ordered basis. Does \\(T\\) commute with \\(T^{*}\\)?  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be \\(C^{\\natural}\\) with the standard inner product. Let \\(T\\) be the linear operator on \\(V\\) whose matrix in the standard ordered basis is defined by  \\[A_{ik}=i^{\\prime+k},\\qquad(i^{\\natural}=-1).\\]  Find a basis for the null space of \\(T^{*}\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be a finite-dimensional inner product space and \\(T\\) a linear operator on \\(V\\). Show that the range of \\(T^{*}\\) is the orthogonal complement of the null space of \\(T\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be a finite-dimensional inner product space and \\(T\\) a linear operator on \\(V\\). If \\(T\\) is invertible, show that \\(T^{*}\\) is invertible and \\((T^{*})^{-1}=(T^{-1})^{*}\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be an inner product space and \\(\\beta\\), \\(\\gamma\\) fixed vectors in \\(V\\). Show that \\(T\\alpha=(\\alpha|\\beta)\\gamma\\) defines a linear operator on \\(V\\). Show that \\(T\\) has an adjoint, and describe \\(T^{*}\\) explicitly.  Now suppose \\(V\\) is \\(C^{n}\\) with the standard inner product, \\(\\beta=(y_{1},\\,.\\,.\\,.\\,,\\,y_{n})\\), and \\(\\gamma=(x_{1},\\,.\\,.\\,.\\,,\\,x_{n})\\). What is the \\(j\\), \\(k\\) entry of the matrix of \\(T\\) in the standard ordered basis? What is the rank of this matrix?  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Show that the product of two self-adjoint operators is self-adjoint if and only if the two operators commute.   "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "For each of the following real symmetric matrices \\(A\\), find a real orthogonal matrix \\(P\\) such that \\(P^{t}AP\\) is diagonal.  \\[\\begin{bmatrix}1&1\\\\ 1&1\\end{bmatrix},\\quad\\begin{bmatrix}1&2\\\\ 2&1\\end{bmatrix},\\quad\\begin{bmatrix}\\cos\\theta&\\sin\\theta\\\\ \\sin\\theta&-\\cos\\theta\\end{bmatrix}\\]  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Is a complex symmetric matrix self-adjoint? Is it normal?  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "For  \\[A=\\begin{bmatrix}1&2&3\\\\ 2&3&4\\\\ 3&4&5\\end{bmatrix}\\]  there is a real orthogonal matrix \\(P\\) such that \\(P^{t}AP=D\\) is diagonal. Find such a diagonal matrix \\(D\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(V\\) be \\(C^{2}\\), with the standard inner product. Let \\(T\\) be the linear operator on \\(V\\) which is represented in the standard ordered basis by the matrix  \\[A=\\begin{bmatrix}1&i\\\\ i&1\\end{bmatrix}.\\]  Show that \\(T\\) is normal, and find an orthonormal basis for \\(V\\), consisting of characteristic vectors for \\(T\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Give an example of a \\(2\\times 2\\) matrix \\(A\\) such that \\(A^{2}\\) is normal, but \\(A\\) is not normal.  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(T\\) be a normal operator on a finite-dimensional complex inner product space. Prove that \\(T\\) is self-adjoint, positive, or unitary according as every characteristic value of \\(T\\) is real, positive, or of absolute value \\(1\\). (Use Theorem 22 to reduce to a similar question about diagonal matrices.)  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Let \\(T\\) be a linear operator on the finite-dimensional inner product space \\(V\\), and suppose \\(T\\) is both positive and unitary. Prove \\(T=I\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Prove \\(T\\) is normal if and only if \\(T=T_{1}+iT_{2}\\) where \\(T_{1}\\) and \\(T_{2}\\) are self-adjoint operators which commute.  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Prove that a real symmetric matrix has a real symmetric cube root; i.e., if \\(A\\) is real symmetric, there is a real symmetric \\(B\\) such that \\(B^{2}=A\\).  "
+    },
+    {
+        "chapter": "Inner Product Spaces",
+        "question": "Prove that every positive matrix is the square of a positive matrix.  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Which of the following functions \\(f\\), defined on vectors \\(\\alpha=(x_{1},\\,x_{2})\\) and \\(\\beta=(y_{1},\\,y_{2})\\) in \\(C^{2}\\), are (sesqui-linear) forms on \\(C^{2}\\)?  (a) \\(f(\\alpha,\\,\\beta)\\,=\\,1\\).  (b) \\(f(\\alpha,\\,\\beta)\\,=\\,(x_{1}-\\bar{y}_{1})^{2}+x_{2}\\bar{y}_{2}\\).  (c) \\(f(\\alpha,\\,\\beta)\\,=\\,(x_{1}+\\bar{y}_{1})^{2}-(x_{1}-\\bar{y}_{1})^{2}\\).  (d) \\(f(\\alpha,\\,\\beta)\\,=\\,x_{1}\\bar{y}_{2}-\\,\\bar{x}"
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(V\\) be \\(C^{\\sharp}\\), with the standard inner product. For which vectors \\(\\alpha\\) in \\(V\\) is there a positive linear operator \\(T\\) such that \\(\\alpha\\,=\\,T\\epsilon_{1}\\)?  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(V\\) be \\(R^{\\sharp}\\), with the standard inner product. If \\(\\theta\\) is a real number, let \\(T\\) be the linear operator 'rotation through \\(\\theta\\),'  \\[T\\theta(x_{1},x_{2})\\,=\\,(x_{1}\\cos\\theta-x_{2}\\sin\\theta,x_{1}\\sin\\theta+x_ {2}\\cos\\theta).\\]  For which values of \\(\\theta\\) is \\(T\\theta\\) a positive operator?  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(V\\) be the space of \\(n\\,\\times\\,1\\) matrices over \\(C\\), with the inner product \\((X|Y)\\,=\\,Y^{*}GX\\) (where \\(G\\) is an \\(n\\,\\times\\,n\\) matrix such that this is an inner product). Let \\(A\\) be an \\(n\\,\\times\\,n\\) matrix and \\(T\\) the linear operator \\(T(X)\\,=\\,AX\\). Find \\(T^{*}\\). If \\(Y\\) is a fixed element of \\(V\\), find the element \\(Z\\) of \\(V\\) which determines the linear functional \\(X\\,\\xrightarrow{}\\,Y^{*}X\\). In other words, find \\(Z\\) such that \\(Y^{*}X\\,=\\,(X|Z)\\) for all \\(X\\) in \\(V\\).   "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Give a reasonable definition of a non-negative \\(n\\times n\\) matrix, and then prove that such a matrix has a unique non-negative square root.  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(A\\) be an \\(n\\times n\\) matrix with complex entries such that \\(A^{*}=-A\\), and let \\(B=e^{A}\\). Show that \\(\\det B=e^{\\mathrm{tr}\\,A}\\); \\(B^{*}=e^{-A}\\);\\(B\\) is unitary. "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "If \\(U\\) and \\(T\\) are normal operators which commute, prove that \\(U+T\\) and \\(UT\\) are normal.  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(T\\) be a linear operator on the finite-dimensional complex inner product space \\(V\\). Prove that the following ten statements about \\(T\\) are equivalent. \\(T\\) is normal. \\(\\|T\\alpha\\|=\\|T^{*}\\alpha\\|\\) for every \\(\\alpha\\) in \\(V\\). \\(T=T_{1}+iT_{2}\\), where \\(T_{1}\\) and \\(T_{2}\\) are self-adjoint and \\(T_{1}T_{2}=T_{2}T_{1}\\). If \\(\\alpha\\) is a vector and \\(c\\) a scalar such that \\(T\\alpha=c\\alpha\\), then \\(T^{*}\\alpha=\\varepsilon\\alpha\\). There is an orthonormal basis for \\(V\\) consisting of characteristic vectors [for \\(T\\). There is an orthonormal basis \\(\\otimes\\) such that \\([T]_{\\otimes}\\) is diagonal. There is a polynomial \\(g\\) with complex coefficients such that \\(T^{*}=g(T)\\). Every subspace which is invariant under \\(T\\) is also invariant under \\(T^{*}\\). \\(T=NU\\), where \\(N\\) is non-negative, \\(U\\) is unitary, and \\(N\\) commutes with \\(U\\). \\(T=e_{1}E_{1}+\\cdots+e_{k}E_{k}\\), where \\(I=E_{1}+\\cdots+E_{k}\\), \\(E_{i}E_{j}=0\\) for \\(i\\neq j\\), and \\(E_{i}^{2}=E_{i}=E_{i}^{*}\\)."
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Use Exercise 3 to show that any commuting family of normal operators (not necessarily diagonalizable ones) on a finite-dimensional inner product space generates a commutative self-adjoint algebra of normal operators.  "
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(V\\) be a finite-dimensional complex inner product space and \\(U\\) a unitary operator on \\(V\\) such that \\(U\\alpha=\\alpha\\) implies \\(\\alpha=0\\). Let  \\[f(z)=i\\,\\frac{(1+z)}{(1-z)},\\qquad z\\neq 1\\] and show that \\(f(U)=i(I+U)(I-U)^{-1}\\); \\(f(U)\\) is self-adjoint; for every self-adjoint operator \\(T\\) on \\(V\\), the operator \\[U=(T-iI)(T+iI)^{-1}\\] is unitary and such that \\(T=f(U)\\)."
+    },
+    {
+        "chapter": "Operators on Inner Product Spaces",
+        "question": "Let \\(V\\) be the space of complex \\(n\\times n\\) matrices equipped with the inner product  \\[(A|B)=\\mathrm{tr}\\ (AB^{*}).\\]"
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Which of the following functions \\(f\\), defined on vectors \\(\\alpha=(x_{1},x_{2})\\) and \\(\\beta=(y_{1},y_{2})\\) in \\(R^{\\natural}\\), are bilinear forms? \\(f(\\alpha,\\,\\beta)\\,=\\,1\\). 2. \\(f(\\alpha,\\,\\beta)\\,=\\,(x_{1}-y_{1})^{\\natural}+x_{2}y_{2}\\). 3. \\(f(\\alpha,\\,\\beta)\\,=\\,(x_{1}+y_{1})^{\\natural}-(x_{1}-y_{1})^{\\natural}\\). 4. \\(f(\\alpha,\\,\\beta)\\,=\\,x_{1}y_{2}-x_{2}y_{1}\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(f\\) be the bilinear form on \\(R^{\\natural}\\) defined by \\[f((x_{1},y_{1}),\\,(x_{2},y_{2}))\\,=\\,x_{1}y_{1}+x_{2}y_{2}.\\] Find the matrix of \\(f\\) in each of the following bases: \\[\\{(1,\\,0),\\,(0,\\,1)\\},\\qquad\\{(1,\\,-1),\\,(1,\\,1)\\},\\qquad\\{(1,\\,2),\\,(3,\\,4)\\}.\\] "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be the space of all \\(2\\times 3\\) matrices over \\(R_{\\natural}\\) and let \\(f\\) be the bilinear form on \\(V\\) defined by \\(f(X,\\,Y)\\,=\\,\\text{trace}\\,\\,(X^{\\,\\prime}AY)\\), where \\[A\\,=\\,\\begin{bmatrix}1&2\\\\ 3&4\\end{bmatrix}.\\] Find the matrix of \\(f\\) in the ordered basis \\[\\{E^{\\natural},E^{\\natural},E^{\\natural},E^{\\natural},E^{\\natural},E^{\\natural \\natural},E^{\\natural\\natural}\\}\\] where \\(E^{\\natural}\\) is the matrix whose only non-zero entry is a \\(1\\) in row \\(i\\"
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be a vector space over a field \\(F\\). Show that the set of all skew-symmetric bilinear forms on \\(V\\) is a subspace of \\(L(V,\\,V,\\,F)\\). "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Find all skew-symmetric bilinear forms on \\(R^{3}\\). "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Find a basis for the space of all skew-symmetric bilinear forms on \\(R^{n}\\). "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(f\\) be a symmetric bilinear form on \\(C^{n}\\) and \\(g\\) a skew-symmetric bilinear form on \\(C^{n}\\). Suppose \\(f+g=0\\). Show that \\(f=g=0\\). "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be an \\(n\\)-dimensional vector space over a subfield \\(F\\) of \\(C\\). Prove the following. 1. The equation \\((P\\!f)(\\alpha,\\beta)=\\frac{1}{2}f(\\alpha,\\beta)-\\frac{1}{2}f(\\beta,\\alpha)\\) defines a linear operator \\(P\\) on \\(L(V,\\,V,\\,F)\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be an \\(n\\)-dimensional vector space over a subfield \\(F\\) of \\(C\\). Prove the following. 1. \\(P^{\\intercal}=P_{i}\\), i.e., \\(P\\) is a projection."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be an \\(n\\)-dimensional vector space over a subfield \\(F\\) of \\(C\\). Prove the following. 1. rank \\(P=\\frac{n(n-1)}{2}\\); nullity \\(P=\\frac{n(n+1)}{2}\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be an \\(n\\)-dimensional vector space over a subfield \\(F\\) of \\(C\\). Prove the following. 1. If \\(U\\) is a linear operator on \\(V\\), the equation \\((U\\!f)(\\alpha,\\beta)=f(U\\alpha,\\,U\\beta)\\) defines a linear operator \\(U\\!t\\) on \\(L(V,\\,V,\\,F)\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be an \\(n\\)-dimensional vector space over a subfield \\(F\\) of \\(C\\). Prove the following. 1. For every linear operator \\(U\\), the projection \\(P\\) commutes with \\(U^{\\intercal}\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Prove an analogue of Exercise 11 in Section 10.2 for non-degenerate, skew-symmetric bilinear forms."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(f\\) be a bilinear form on a vector space \\(V\\). Let \\(L_{f}\\) and \\(R_{f}\\) be the mappings of \\(V\\) into \\(V^{*}\\) associated with \\(f\\) in Section 10.1. Prove that \\(f\\) is skew-symmetric if and only if \\(L_{f}=-R_{f}\\). "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Prove an analogue of Exercise 17 in Section 10.2 for skew-symmetric forms. "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be a finite-dimensional vector space and \\(L_{1}\\), \\(L_{2}\\) linear functionals on \\(V\\). Show that the equation \\[f(\\alpha,\\,\\beta)=L_{1}(\\alpha)L_{2}(\\beta)=L_{1}(\\beta)L_{2}(\\alpha)\\] defines a skew-symmetric bilinear form on \\(V\\). Show that \\(f=0\\) if and only if \\(L_{1}\\), \\(L_{2}\\) are linearly dependent. "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be a finite-dimensional vector space over a subfield of the complex numbers and \\(f\\) a skew-symmetric bilinear form on \\(V\\). Show that \\(f\\) has rank \\(2\\) if"
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(M\\) be a member of the complex orthogonal group, \\(O(n,C)\\). Show that \\(M^{\\prime}\\), \\(\\overline{M}\\), and \\(M^{*}=\\overline{M}^{\\prime}\\) also belong to \\(O(n,C)\\).  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Suppose \\(M\\) belongs to \\(O(n,C)\\) and that \\(M^{\\prime}\\) is similar to \\(M\\). Does \\(M^{\\prime}\\) also belong to \\(O(n,C)\\)?  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let  \\[y_{j}=\\sum_{k=1}^{n}M_{jk}x_{k}\\]  where \\(M\\) is a member of \\(O(n,C)\\). Show that  \\[\\sum_{j}y_{j}^{2}=\\sum_{j}x_{j}^{2}.\\]  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(M\\) be an \\(n\\times n\\) matrix over \\(C\\) with columns \\(M_{1}\\), \\(M_{1}\\), ..., \\(M_{n}\\). Show that \\(M\\) belongs to \\(O(n,C)\\) if and only if  \\[M^{\\prime}_{j}M_{k}=\\delta_{jk}.\\]  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(X\\) be an \\(n\\times 1\\) matrix over \\(C\\). Under what conditions does \\(O(n,C)\\) contain a matrix \\(M\\) whose first column is \\(X\\)?  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Find a matrix in \\(O(3,C)\\) whose first row is \\((2i,2i,3)\\).  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be the space of all \\(n\\times 1\\) matrices over \\(C\\) and \\(f\\) the bilinear form on \\(V\\) given by \\(f(X,Y)=X^{\\prime}Y\\). Let \\(M\\) belong to \\(O(n,C)\\). What is the matrix of \\(f\\) in the basis of \\(V\\) consisting of the columns \\(M_{1}\\), \\(M_{2}\\), ..., \\(M_{n}\\) of \\(M\\)?  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(X\\) be an \\(n\\times 1\\) matrix over \\(C\\) such that \\(X^{\\prime}X=1\\), and \\(I_{i}\\) be the \\(j\\)th column of the identity matrix. Show there is a matrix \\(M\\) in \\(O(n,C)\\) such that \\(MX=I_{i}\\). If \\(X\\) has real entries, show there is an \\(M\\) in \\(O(n,R)\\) with the property that \\(MX=I_{i}\\).  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(V\\) be the space of all \\(n\\times 1\\) matrices over \\(C\\), \\(A\\) an \\(n\\times n\\) matrix over \\(C\\), and \\(f\\) the bilinear form on \\(V\\) given by \\(f(X,Y)=X^{\\prime}AY\\). Show that \\(f\\) is invariant under \\(O(n,C)\\), i.e., \\(f(MX,MY)=f(X,Y)\\) for all \\(X\\), \\(Y\\) in \\(V\\) and \\(M\\) in \\(O(n,C)\\), if and only if \\(A\\) commutes with each member of \\(O(n,C)\\).  "
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(S\\) be any set of \\(n\\times n\\) matrices over \\(C\\) and \\(S^{\\prime}\\) the set of all \\(n\\times n\\) matrices over \\(C\\) which commute with each element of \\(S\\). Show that \\(S^{\\prime}\\) is an algebra over \\(C\\)"
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(F\\) be a subfield of \\(C\\), \\(V\\) a finite-dimensional vector space over \\(F\\), and \\(f\\) a non-singular bilinear form on \\(V\\). If \\(T\\) is a linear operator on \\(V\\) preserving \\(f\\), prove that \\(\\det T=\\pm 1\\)."
+    },
+    {
+        "chapter": "Bilinear Forms",
+        "question": "Let \\(F\\) be a subfield of \\(C\\), \\(V\\) the space of \\(n\\times 1\\) matrices over \\(F\\), \\(A\\) a n invertible \\(n\\times n\\) matrix over \\(F\\), and \\(f\\) the bilinear form on \\(V\\) given by \\(f(X,\\,Y)=X^{t}A\\,Y\\). If \\(M\\) is an \\(n\\times n\\) matrix over \\(F\\), show that \\(M\\) preserves \\(f\\ "
+    }
+]
